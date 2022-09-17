@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Jquery Project">
+    <meta name="keywords" content="Jquery, Project, JHW">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JHW Portfolio</title>
+    <link rel="favicon" href="images/fav.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="navBarContainer">
+            <h2 class="logo"><img src="images/logo.png" alt="로고 이미지"></h2>
+            <i class="fa-solid fa-bars"></i>
+            <ul class="navBtn pcVer">
+                <li>Home</li>
+               <li class="mainBtn">Profile</li>
+               <li>List</li>
+               <li>Contact</li>
+            </ul>
+            <ul class="navBtn mobileVer">
+                <li>Home</li>
+               <li class="mainBtn">Profile</li>
+               <li>List</li>
+               <li>Contact</li> 
+            </ul>
+        </div>
+    </nav>
+    <section class="homeContainer">
+        <div class="homeBox">
+            <div class="homeContentBox">
+                <h2>
+                    안녕하세요 <br> 신입 웹퍼블리셔 <br> 정하원입니다!
+                </h2>
+                <p>늘 고민하고 성장하고픈 웹퍼블리셔가 되겠습니다!</p>
+            </div>
+            <img src="images/memoticon.png" alt="미모티콘 이미지">
+        </div>
+    </section>
+    <section class="workContainer">
+        <div class="workBox">
+            <h2>My Work</h2>
+            <ul class="workList">
+                <li>
+                    <a class="workListImg" href="https://adxu9v.github.io/lotte/" target="'_blank"><img src="./images/lotte_main.png" alt="롯데월드 사이트 이미지"></a>
+                    <div class="workListBox">
+                        <h3>LotteWorld</h3>
+                        <p>PC site</p>
+                        <p>롯데월드(2021) 사이트를 클론코딩 작업을 했습니다.</p>
+                        <p>기여도 100%</p>
+                        <ul class="workListIcon">
+                            <li><img src="./images/html_icon.png" alt="html 아이콘"></li>
+                            <li><img src="./images/css_icon.png" alt="css 아이콘"></li>
+                            <li><img src="./images/jquery_icon.png" alt="jquery 아이콘"></li>
+                        </ul>
+                        <a href="https://adxu9v.github.io/lotte/" target="_blank"><button>VIEW</button></a>
+                    </div>
+                </li>
+                <li>
+                    <a class="workListImg" href="https://adxu9v.github.io/ReactWeatherApp/" target="_blank"><img src="./images/react_weather_img.jpeg" alt="리액트 날씨 사이트 이미지"></a>
+                    <div class="workListBox">
+                        <h3>React Weather</h3>
+                    <p>PC site</p>
+                    <p>open api를 기반으로 오늘의 날씨 검색이 가능한 사이트입니다. 리액트로 작업을 했으며 axios로 ajax작업을 진행했습니다.</p>
+                    <p>기여도 100%</p>
+                    <ul class="workListIcon">
+                        <li><img src="./images/html_icon.png" alt="html 아이콘"></li>
+                        <li><img src="./images/css_icon.png" alt="css 아이콘"></li>
+                        <li><img src="./images/javascript_icon.png" alt="javascript 아이콘"></li>
+                        <li><img src="./images/react_icon.png" alt="react 아이콘"></li>
+                    </ul>
+                    <a href="https://adxu9v.github.io/ReactWeatherApp/" target="_blank"><button>VIEW</button></a>
+                    </div>
+                    
+                </li>
+                <li>
+                    <a class="workListImg" href="https://adxu9v.github.io/lotte/" target="'_blank"><img src="./images/portfolio_main.jpg" alt="포트폴리오 정리 사이트 이미지"></a>
+                    <div class="workListBox">
+                        <h3>Porfolio</h3>
+                    <p>PC, MOBILE site</p>
+                    <p>현재까지 진행해온 포트폴리오를 모아놓은 사이트입니다.</p>
+                    <p>기여도 100%</p>
+                    <ul class="workListIcon">
+                        <li><img src="./images/html_icon.png" alt="html 아이콘"></li>
+                        <li><img src="./images/css_icon.png" alt="css 아이콘"></li>
+                        <li><img src="./images/jquery_icon.png" alt="jquery 아이콘"></li>
+                    </ul>
+                    <a href="#"><button>VIEW</button></a>
+                    </div>
+                </li>
+                <li>
+                    <a class="workListImg" href="http://jhw.dothome.co.kr/oculus/" target="_blank"><img src="./images/oculus_main.png" alt="오큘러스 사이트 이미지"></a>
+                    <div class="workListBox">
+                        <h3>Oculus</h3>
+                    <p>PC site</p>
+                    <p>기존에 있었던 vr기기인 오큘러스 사이트에서 스크롤 애니메이션을 중점으로 리뉴얼 작업을 진행했습니다.</p>
+                    <p>기여도 100%</p>
+                    <ul class="workListIcon">
+                        <li><img src="./images/html_icon.png" alt="html 아이콘"></li>
+                        <li><img src="./images/css_icon.png" alt="css 아이콘"></li>
+                        <li><img src="./images/jquery_icon.png" alt="jqeury 아이콘"></li>
+                    </ul>
+                    <a href="http://jhw.dothome.co.kr/oculus/" target="_blank"><button>VIEW</button></a>
+                    </div>
+                </li>
+                <li>
+                    <a class="workListImg" href="https://adxu9v.github.io/ReactSmartShop/" target="'_blank"><img src="./images/reactSmartShop_main.jpg" alt="리액트 스마트 쇼핑몰 사이트 이미지"></a>
+                    <div class="workListBox">
+                        <h3>React Smart Shop</h3>
+                        <p>PC, MOBILE site</p>
+                        <p>스마트폰, 태블릿등의 스마트 기기를 구매할 수 있도록 기능을 구현했습니다. Redux로 상태관리를 하면서 제작한 쇼핑몰 프로젝트입니다, 아직 미완성으로 작업 진행중입니다.</p>
+                        <p>기여도 100%</p>
+                        <ul class="workListIcon">
+                            <li><img src="./images/html_icon.png" alt="html 아이콘"></li>
+                            <li><img src="./images/css_icon.png" alt="css 아이콘"></li>
+                            <li><img src="./images/javascript_icon.png" alt="javascript 아이콘"></li>
+                            <li><img src="./images/react_icon.png" alt="react 아이콘"></li>
+                            <li><img src="./images/redux_icon.png" alt="redux 아이콘"></li>
+                        </ul>
+                        <a href="https://adxu9v.github.io/ReactSmartShop/"><button>VIEW</button></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="profileContainer">
+        <h2>My Profile</h2>
+        <div class="profileBox">
+            <img src="./images/profile.jpeg" alt="프로필 이미지">
+            <div class="profileContext">
+                <h3>
+                    name : 정하원
+                </h3>
+               <ul>
+                   <li>licence : gtq 1급, gtq 일러스트 1급</li>
+                   <li>education : 2021.11 ~ 2022.04 이젠컴퓨터학원 웹퍼블리셔 과정 수료</li>
+               </ul>
+                <div class="profileIconBox">
+                    <h4>Skils</h4>
+                    <ul class="profileIcon">
+                        <li><img src="./images/html_icon.png" alt="html 아이콘"></li>
+                        <li><img src="./images/css_icon.png" alt="css 아이콘"></li>
+                        <li><img src="./images/jquery_icon.png" alt="jqeury 아이콘"></li>
+                        <li><img src="./images/javascript_icon.png" alt="javascript 아이콘"></li>
+                        <li><img src="./images/react_icon.png" alt="react 아이콘"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contactContainer">
+        <div class="contactBox">
+            <h2>Contact Me</h2>
+            <address><i class="fa-solid fa-envelope"></i>jjsu4852@naver.com</address>
+            <p><i class="fa-solid fa-phone"></i>Phone-Number : 010-4809-7442</p>
+        </div>
+    </section>
+    <footer>
+        Thank you for watching
+        <br>
+        Copyright ⓒ 2022. hawon jeong  All rights reserved.
+    </footer>
+</body>
+</html>
